@@ -1,0 +1,483 @@
+body{
+    margin: 0;
+    padding: 0;
+    /* display: grid;
+    justify-content: center;
+    text-align: center; */
+
+}
+.cont ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+    font-size: 22px;
+    font-weight: 400;
+
+}
+.cont a{
+    text-decoration: none;
+    color: #404040ad;
+}
+.menu_img{
+    display: flex;
+    gap: 28px;
+    
+}
+.menu{
+    display: flex;
+    gap: 28px;
+}
+.menu a:hover{
+    color: black;
+    text-decoration: underline;
+}
+.pointer{
+    cursor: pointer;
+}
+.fon{
+    background-image: url("../img/IMAGE\ \(1\).png");
+    background-size: cover;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #fff;
+}
+.fon h2{
+    font-size: 44px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 100;
+}
+.fon P{
+    font-size: 16px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.fon2{
+    
+    background-color: #FEFEC9;
+    height: 40vh;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 18px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 400;
+}
+.btn{
+    padding: 20px 42px;
+    background-color: rgba(0, 0, 0, 0);
+    border-color: rgba(0, 0, 0, 0.5);
+    border-radius: 3px;
+    cursor: pointer;
+}
+.text{
+    background-color: #fff;
+    height: 18vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    font-weight: 400;
+}
+.foto{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 8rem;
+
+}
+.foto h2{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 20px;
+    color: #333333;
+}
+.foto p{
+    font-size: 16px;
+    font-weight: 400;
+    color: #333333;
+}
+.font{
+    background-color: #F5F5F5;
+    display: grid;
+    align-items: center;
+    height: 180vh;
+    text-align: center;
+}
+.font h2{
+    font-weight: 400;
+    font-size: 18px;
+    color: #333333;
+}
+.font1{
+    display: flex;
+    justify-content: center;
+    gap: 5rem;
+    text-align: center;
+}
+.color{
+    background-color: #fff;
+}
+.font2{
+    display: flex;
+    justify-content: center;
+    gap: 5rem;
+    text-align: center;
+}
+.font3{
+    display: flex;
+    justify-content: center;
+    gap: 5rem;
+    text-align: center; 
+}
+.tek{
+    background-color: #fff;
+    height: 50vh;
+    display: grid;
+    align-items: center;
+    text-align: center;
+}
+.tek h2{
+    font-size: 20px;
+    font-weight: 400;
+}
+.man{
+    background-color: #fff;
+    height: 55vh;
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+}
+.boygirl{
+    background-color: #F5F5F5;
+    height: 55vh;
+    padding-top: 8rem;
+
+}
+.img{
+    display: flex;
+    justify-content: center;
+    padding-left: 4rem;
+}
+.block{
+    display: flex;
+    justify-content: center;
+    gap: 5rem;
+    align-items: center;
+    text-align: center;
+    font-size: 28px;
+}
+.block h2{
+    font-size: 16px;
+    font-weight: 400;
+    color: #ABABAB;
+}
+.fonp{
+    background-image: url("../img/fonp.png");
+    height: 55vh;
+    display: grid;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.fonp h2{
+    display: flex;
+    justify-content: center;
+    font-size: 18px;
+    font-weight: 400;
+    color: #000000a2;
+}
+.fonp p{
+    line-height: 4px;
+    font-size: 18px;
+}
+.iconka{
+    display: flex;
+    text-align: center;
+    align-items: stretch;
+    gap: 5rem;
+}
+.iconka a{
+    text-decoration: none;
+    color: black;
+}
+.set{
+    display: grid;
+    line-height: 28px;
+
+}
+.inputfon{
+    background-color: black;
+    height: 80vh;
+    display: grid;
+    align-items: flex-start;
+    
+}
+.input{
+    display: grid;
+    justify-content: center;
+    padding: 4rem;
+}
+.send{
+    display: flex;
+    justify-content: center;
+    padding: 2rem;
+}
+.btnb{
+    padding: 12px 30px;
+    border-color: #7EC4BD;
+    background-color: black;
+    color: #7EC4BD;
+    border-radius: 3px;
+}
+.input img{
+    display: flex;
+    margin-left: 12rem;
+}
+.input p{
+    color:#ffffff52;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 400;
+}
+@media (min-width:240px) and (max-width:480px){
+    .menu{
+        display: block;
+    }
+    .cont{
+        display: block;
+        justify-content: center;
+        
+    }
+    .fon{
+        height: 24vh;
+    }
+    .text{
+        font-size: 20px;
+    }
+    .fon h2{
+        font-size: 16px;
+    }
+    .fon2{
+        height: 20vh;
+        font-size: 6px;
+    }
+    .btn{
+        padding: 8px 20px;
+        color: #333333;
+    }
+    .foto{
+        display: block;
+    }
+    .tek{
+        display: block;
+    }
+    .font{
+        background-color: #fff;
+        height: 245rem;
+    }
+    .font1{
+        display: block;
+        
+        
+    }
+    .font img{
+        width: 70%;
+        
+    }
+    .font2{
+        display: block;
+    }
+    .font3{
+        display: block;
+    }
+.tek{
+    height: 91rem;
+}
+.man{
+    display: block;
+}
+.boygirl{
+    height: 40rem;
+}
+.adap{
+    display: none;
+}
+.block{
+    display: block;
+}
+.fonp{
+    height: 50rem;
+}
+.iconka{
+    display: block;
+}
+.inputfon{
+    display: block;
+}
+.input{
+    padding: 0;
+}
+}
+@media (min-width:480px) and (max-width:569px){
+    .menu{
+        display: block;
+    }
+    .cont{
+        display: block;
+        justify-content: center;
+        
+    }
+    .fon{
+        height: 24vh;
+    }
+    .text{
+        font-size: 22px;
+    }
+    .fon h2{
+        font-size: 16px;
+    }
+    .fon2{
+        height: 20vh;
+        font-size: 6px;
+    }
+    .btn{
+        padding: 8px 20px;
+        color: #333333;
+    }
+    .foto{
+        display: block;
+    }
+    .tek{
+        display: block;
+    }
+    .font{
+        background-color: #fff;
+        height: 280rem;
+    }
+    .font1{
+        display: block;
+        
+        
+    }
+    .font img{
+        width: 70%;
+        
+    }
+    .font2{
+        display: block;
+    }
+    .font3{
+        display: block;
+    }
+.tek{
+    height: 91rem;
+}
+.man{
+    display: block;
+}
+.boygirl{
+    height: 40rem;
+}
+.adap{
+    display: none;
+}
+.block{
+    display: block;
+}
+.fonp{
+    height: 50rem;
+}
+.iconka{
+    display: block;
+}
+.inputfon{
+    display: block;
+}
+.input{
+    padding: 0;
+}
+}
+@media (min-width:569px) and (max-width:769px){
+    .menu{
+        display: block;
+    }
+    .cont{
+        display: block;
+        justify-content: center;
+        
+    }
+    .fon{
+        height: 24vh;
+    }
+    .text{
+        font-size: 22px;
+    }
+    .fon h2{
+        font-size: 16px;
+    }
+    .fon2{
+        height: 20vh;
+        font-size: 6px;
+    }
+    .btn{
+        padding: 8px 20px;
+        color: #333333;
+    }
+    .foto{
+        display: block;
+    }
+    .tek{
+        display: block;
+    }
+    .font{
+        background-color: #fff;
+        height: 280rem;
+    }
+    .font1{
+        display: block;
+        
+        
+    }
+    .font img{
+        width: 70%;
+        
+    }
+    .font2{
+        display: block;
+    }
+    .font3{
+        display: block;
+    }
+.tek{
+    height: 91rem;
+}
+.man{
+    display: block;
+}
+.boygirl{
+    height: 40rem;
+}
+.adap{
+    display: none;
+}
+.block{
+    display: block;
+}
+.fonp{
+    height: 50rem;
+}
+.iconka{
+    display: block;
+}
+.inputfon{
+    display: block;
+}
+.input{
+    padding: 0;
+}
+}
